@@ -1,0 +1,155 @@
+<!--
+
+/* ----------共通項目---------- */ 
+/* 全体の設定 */
+body{
+	background-image:url(index.jpg); /* 背景の画像 */
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	color:#000; /*標準のフォントカラー*/
+	font-size:70%; /*標準のフォントサイズ*/
+	font-family:Verdana,"ＭＳ Ｐゴシック",Sans-serif;
+	line-height:230%; /* 行間 */
+	margin:0px auto;
+	padding:10px;
+	width:700px;
+}
+
+/* サイト名 */
+h1{
+	font-size:120%;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+}
+
+/* 見出し */
+h2{
+	border:#000 solid 1px; /* 周りの線 */
+	font-size:110%;
+	font-weight:normal;
+	margin:0px;
+	text-indent:10px;
+}
+
+/* リンク */
+a{
+	color:#1e50a2; /* 文字色 */
+}
+
+a img{
+	border:none 0px;
+}
+
+/* その他 */
+ul{
+	list-style-type:circle;
+}
+
+hr{ /* float解除 */
+	background-color:#fff;
+	border:#fff none 0px;
+	clear:both;
+	color:#fff;
+	line-height:1px;
+	margin:0px;
+	height:1px;
+	width:1px;
+}
+
+.top{ /* トップへ戻る */
+	text-align:right;
+}
+
+/* ----------構造---------- */ 
+
+/* ヘッダー */
+#header{
+	padding:10px 0px;
+	text-align:right;
+}
+
+/* 本文 */
+#text{
+	padding-top:30px;
+}
+
+#first-section{
+	float:left;
+	margin-right:50px;
+	width:150px;
+}
+
+#second-section{
+	float:left;
+	width:500px;
+}
+
+/* フッター */
+#footer{
+	border-top:#000 solid 1px;
+	color:#999;
+	font-size:90%;
+	padding:10px 0px;
+	text-align:right;
+}
+
+#footer a{
+	color:#99f;
+	text-decoration:none;
+}
+
+/* ----------メニュー---------- */ 
+
+#menu{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#menu li{
+	border:#000 solid 1px; /* 項目名の周りの線 */
+	margin-bottom:10px;
+	padding:0px;
+}
+
+#menu li a{
+	color:#000; /* 文字色 */
+	display:block;
+	text-decoration:none;
+	text-indent:10px;
+	width:100%;
+}
+
+#menu li a:hover{/* マウスオーバー時 */
+	background-color:#000; /* 項目名の背景色 */
+	color:#fff; /* 項目名の文字色 */
+}
+
+/* ----------aboutページ用---------- */ 
+
+table.about{
+	margin:20px 0px;
+}
+
+table.about caption{
+	text-align:left;
+}
+
+table.about td{
+	border:#999 solid 1px; /* 線の色 */
+	padding:2px 4px;
+}
+
+/* ----------linkページ用---------- */ 
+
+.link,.link dt,.link dd{
+	margin:0px;
+	padding:0px;
+}
+
+.link{
+	margin:15px 0px;
+}
+
+-->
